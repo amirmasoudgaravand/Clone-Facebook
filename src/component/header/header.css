@@ -1,0 +1,84 @@
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.headerleft {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerleft>img {
+    height: 40px;
+}
+
+.headerinput {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 33px;
+}
+
+.headerinput>input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.headercenter {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.headeroption>.MuiSvgIcon-root {
+    color: gray;
+}
+
+.headeroption:hover>.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.headeroptionactive>.MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.headeroptionactive {
+    border-bottom: 4px solid #2e81f4;
+}
+
+.headeroption {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.headeroption:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.headerinfo {
+    display: flex;
+    align-items: center;
+}
+
+.headerinfo>h4 {
+    margin-left: 10px;
+}
+
+.headerright {
+    display: flex;
+}
